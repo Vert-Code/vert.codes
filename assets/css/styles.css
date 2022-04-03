@@ -106,3 +106,8 @@ a:link {
 .projects {
     margin-top: 1rem;
 }
+
+.testing {
+    position: absolute;
+    bottom: 0;
+}
