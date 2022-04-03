@@ -107,7 +107,8 @@ a:link {
     margin-top: 1rem;
 }
 
-.testing {
+.copyright {
+    color: #B2BECD;
     position: absolute;
     bottom: 0;
 }
