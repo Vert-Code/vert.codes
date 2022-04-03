@@ -1,0 +1,8 @@
+.llama {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.llama:hover {
+    content: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+}

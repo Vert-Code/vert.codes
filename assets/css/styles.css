@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;600;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-size: 'Red Hat Display';
+}
+
+* {
+    font-family: 'Red Hat Display';
+}
+
+body {
+    background-color: #2F3136;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(180deg, #5A68FF 0%, #4632D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+a:link {
+    text-decoration: none;
+    background: linear-gradient(180deg, #5A68FF 0%, #4632D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.box {
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem 6rem;
+}
+
+.hello {
+    font-size: 62.38px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.about {
+    color: #000000;
+    font-size: 25.1px;
+    font-weight: 300;
+}
+
+.links {
+    background: linear-gradient(180deg, #5A68FF 0%, #4632D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.links_title {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.homebtn {
+    display: inline-block;
+    color: linear-gradient(180deg, #5A68FF 0%, #4632D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.helloIm {
+    margin-left: 3rem;
+}
+
+.projects>a {
+    color: black;
+    background: transparent;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: #000000;
+    font-size: 27px;
+    font-weight: 300;
+    background-clip: unset;
+}
+
+.projects {
+    margin-top: 1rem;
+}
