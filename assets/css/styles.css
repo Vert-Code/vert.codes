@@ -101,8 +101,12 @@ a:link {
     font-size: 27px;
     font-weight: 300;
     background-clip: unset;
-    margin-top: 1rem;
     color: black;
+    -webkit-text-fill-color: unset;
+}
+
+.moreabout {
+    margin-top: 2rem;
 }
 
 .footer {
@@ -125,8 +129,7 @@ a:link {
 }
 
 .slimboExtra:hover {
-
-    opacity: 10%;
+    opacity: 5%;
     color: lightgreen;
 }
 
@@ -135,4 +138,13 @@ a:link {
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid #96989D;
+}
+
+.counter {
+    color: #2F3136;
+}
+
+.counter:hover {
+    color: lightgoldenrodyellow;
+    opacity: 10%;
 }
