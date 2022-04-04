@@ -107,8 +107,14 @@ a:link {
     margin-top: 1rem;
 }
 
+
 .copyright {
-    color: #B2BECD;
+    color: #18191C;
     position: absolute;
     bottom: 0;
+    left: 50px;
+}
+
+.credit {
+    color: #18191C;
 }
