@@ -126,10 +126,10 @@ a:link {
     text-align: center;
 }
 
-.slimboExtra::after {
+.slimboExtra {
     color: #2F3136;
 }
 
-.slimboExtra::hover {
+.slimboExtra:hover {
     color: black;
 }
