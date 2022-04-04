@@ -126,6 +126,10 @@ a:link {
     text-align: center;
 }
 
+.loveVert {
+    transform: translateX(20%);
+}
+
 .slimboExtra {
     color: #2F3136;
 }
