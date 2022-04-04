@@ -93,46 +93,46 @@ a:link {
     margin-left: 3rem;
 }
 
-.projects>a {
-    color: black;
+
+.moreabout>a {
     background: transparent;
     -webkit-background-clip: unset;
-    -webkit-text-fill-color: #000000;
+    background-clip: unset;
     font-size: 27px;
     font-weight: 300;
     background-clip: unset;
-}
-
-.portfolio {
-    font-size: 30px;
     margin-top: 1rem;
-    color: linear-gradient(180deg, #5A68FF 0%, #4632D0 100%);
-}
-
-.development {
-    font-size: 25px;
-}
-
-.moderation {
-    font-size: 25px;
-}
-
-.loveVert {
-    transform: translate(20%);
+    color: black;
 }
 
 .footer {
     position: absolute;
     left: 50%;
-    top: 93%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #96989D;
+}
+
+
+.slimboExtra {
+    color: #2F3136;
+    position: absolute;
+    left: 61.75%;
+    top: 91.8%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
-.slimboExtra {
-    color: #2F3136;
+.slimboExtra:hover {
+
+    opacity: 10%;
+    color: lightgreen;
 }
 
-.slimboExtra:hover {
-    color: black;
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #96989D;
 }
